@@ -1,0 +1,20 @@
+{
+  // Example configuration for concurrentcore-server (--config config/server.json).
+  // Comments are allowed. Command-line flags override these values.
+  "host": "127.0.0.1",
+  "port": 7878,
+  "io_threads": 2,
+  "worker_threads": 4,
+  "queue_capacity": 1024,
+  "max_message_bytes": 1048576,
+  "max_connections": 256,
+  "max_pending_write_bytes": 8388608,
+  "idle_timeout_seconds": 300,
+  "max_retained_jobs": 10000,
+  "workspace": "workspace",
+  "shutdown_drain_timeout_ms": 10000,
+  "log_level": "info",
+  "max_decompressed_bytes": 268435456,
+  "max_compute_limit": 200000000,
+  "io_chunk_bytes": 65536
+}
