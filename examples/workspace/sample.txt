@@ -1,0 +1,5 @@
+ConcurrentCore sample input.
+This file is copied into the server workspace by the demo scripts so that
+every task type has something real to work on: hashing, compression,
+decompression and text statistics.
+The quick brown fox jumps over the lazy dog.

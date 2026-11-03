@@ -1,0 +1,3 @@
+add_executable(concurrentcore-example-client submit_and_wait.cpp)
+target_link_libraries(concurrentcore-example-client PRIVATE concurrentcore)
+cc_set_warnings(concurrentcore-example-client)

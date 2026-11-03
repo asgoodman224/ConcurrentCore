@@ -1,0 +1,10 @@
+{"type":"PING","request_id":1}
+{"type":"SUBMIT_JOB","request_id":2,"task_type":"sha256","params":{"file":"sample.txt"}}
+{"type":"SUBMIT_JOB","request_id":3,"task_type":"text-analysis","params":{"text":"hello concurrent world"},"notify":true}
+{"type":"SUBMIT_JOB","request_id":4,"task_type":"compress","params":{"input":"sample.txt","format":"gzip","level":9}}
+{"type":"SUBMIT_JOB","request_id":5,"task_type":"decompress","params":{"input":"sample.txt.gz","output":"copy.txt","max_output_bytes":1048576}}
+{"type":"SUBMIT_JOB","request_id":6,"task_type":"compute","params":{"limit":5000000}}
+{"type":"GET_JOB_STATUS","request_id":7,"job_id":1}
+{"type":"GET_JOB_RESULT","request_id":8,"job_id":1}
+{"type":"CANCEL_JOB","request_id":9,"job_id":5}
+{"type":"GET_SERVER_STATS","request_id":10}
