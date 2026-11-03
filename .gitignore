@@ -1,0 +1,20 @@
+# Build trees
+/build/
+/build-*/
+/out/
+cmake-build-*/
+CMakeUserPresets.json
+compile_commands.json
+
+# Runtime artifacts
+/workspace/
+/benchmark_results.csv
+/benchmark_report.md
+*.ccpart
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
