@@ -1,0 +1,12 @@
+Generating 16 input files of 4194304 bytes in C:\Users\andre\AppData\Local\Temp\cc-bench-1566809090
+task    tiny       workers=1   wall=66.5     ms  thr=300824.3 jobs/s  p50=12.20ms  p99=26.30ms  cpu=179%  speedup=1.00x  failures=0
+task    tiny       workers=2   wall=46.5     ms  thr=429852.4 jobs/s  p50=0.11ms  p99=0.70ms  cpu=295%  speedup=1.43x  failures=0
+task    tiny       workers=4   wall=109.1    ms  thr=183323.6 jobs/s  p50=0.01ms  p99=0.10ms  cpu=169%  speedup=0.61x  failures=0
+task    tiny       workers=8   wall=257.8    ms  thr=77570.6  jobs/s  p50=0.01ms  p99=0.11ms  cpu=165%  speedup=0.26x  failures=0
+task    tiny       workers=16  wall=386.8    ms  thr=51699.8  jobs/s  p50=0.01ms  p99=0.14ms  cpu=161%  speedup=0.17x  failures=0
+network tiny       workers=1   wall=1034.6   ms  thr=19330.3  jobs/s  p50=523.26ms  p99=1194.85ms  cpu=601%  speedup=1.00x  failures=0
+network tiny       workers=2   wall=1046.6   ms  thr=19110.0  jobs/s  p50=542.65ms  p99=1109.28ms  cpu=633%  speedup=0.99x  failures=0
+network tiny       workers=4   wall=1101.4   ms  thr=18158.5  jobs/s  p50=557.72ms  p99=1141.85ms  cpu=627%  speedup=0.94x  failures=0
+network tiny       workers=8   wall=1097.5   ms  thr=18223.8  jobs/s  p50=557.07ms  p99=1150.64ms  cpu=610%  speedup=0.94x  failures=0
+network tiny       workers=16  wall=1134.7   ms  thr=17626.5  jobs/s  p50=584.55ms  p99=1199.19ms  cpu=601%  speedup=0.91x  failures=0
+Wrote benchmark_results_tiny.csv and benchmark_report_tiny.md

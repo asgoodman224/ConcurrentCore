@@ -1,0 +1,32 @@
+Generating 16 input files of 4194304 bytes in C:\Users\andre\AppData\Local\Temp\cc-bench-2993761653
+task    compute    workers=1   wall=2311.1   ms  thr=173.1    jobs/s  p50=1161.02ms  p99=2294.01ms  cpu=97%  speedup=1.00x  failures=0
+task    compute    workers=2   wall=1197.5   ms  thr=334.0    jobs/s  p50=613.47ms  p99=1312.17ms  cpu=198%  speedup=1.93x  failures=0
+task    compute    workers=4   wall=826.5    ms  thr=484.0    jobs/s  p50=409.05ms  p99=824.33ms  cpu=396%  speedup=2.80x  failures=0
+task    compute    workers=8   wall=535.0    ms  thr=747.6    jobs/s  p50=270.14ms  p99=538.52ms  cpu=785%  speedup=4.32x  failures=0
+task    compute    workers=16  wall=389.4    ms  thr=1027.1   jobs/s  p50=206.72ms  p99=406.02ms  cpu=1119%  speedup=5.93x  failures=0
+task    sha256     workers=1   wall=2383.5   ms  thr=67.1     jobs/s  p50=1218.54ms  p99=2392.97ms  cpu=98%  speedup=1.00x  failures=0
+task    sha256     workers=2   wall=1473.5   ms  thr=108.6    jobs/s  p50=736.22ms  p99=1473.24ms  cpu=197%  speedup=1.62x  failures=0
+task    sha256     workers=4   wall=1150.3   ms  thr=139.1    jobs/s  p50=576.68ms  p99=1148.08ms  cpu=387%  speedup=2.07x  failures=0
+task    sha256     workers=8   wall=842.5    ms  thr=189.9    jobs/s  p50=438.77ms  p99=843.60ms  cpu=755%  speedup=2.83x  failures=0
+task    sha256     workers=16  wall=656.8    ms  thr=243.6    jobs/s  p50=358.16ms  p99=667.02ms  cpu=1077%  speedup=3.63x  failures=0
+task    compress   workers=1   wall=7519.0   ms  thr=21.3     jobs/s  p50=3844.59ms  p99=8370.12ms  cpu=97%  speedup=1.00x  failures=0
+task    compress   workers=2   wall=4652.5   ms  thr=34.4     jobs/s  p50=2515.81ms  p99=5790.02ms  cpu=194%  speedup=1.62x  failures=0
+task    compress   workers=4   wall=4099.8   ms  thr=39.0     jobs/s  p50=2010.82ms  p99=4201.40ms  cpu=379%  speedup=1.83x  failures=0
+task    compress   workers=8   wall=2655.1   ms  thr=60.3     jobs/s  p50=1372.23ms  p99=2654.20ms  cpu=714%  speedup=2.83x  failures=0
+task    compress   workers=16  wall=2341.5   ms  thr=68.3     jobs/s  p50=1260.10ms  p99=2338.56ms  cpu=865%  speedup=3.21x  failures=0
+network compute    workers=1   wall=2480.0   ms  thr=161.3    jobs/s  p50=1249.86ms  p99=2460.62ms  cpu=101%  speedup=1.00x  failures=0
+network compute    workers=2   wall=1542.0   ms  thr=259.4    jobs/s  p50=756.78ms  p99=1629.69ms  cpu=203%  speedup=1.61x  failures=0
+network compute    workers=4   wall=898.3    ms  thr=445.3    jobs/s  p50=455.38ms  p99=954.26ms  cpu=407%  speedup=2.76x  failures=0
+network compute    workers=8   wall=614.0    ms  thr=651.4    jobs/s  p50=300.17ms  p99=631.88ms  cpu=769%  speedup=4.04x  failures=0
+network compute    workers=16  wall=436.9    ms  thr=915.6    jobs/s  p50=215.29ms  p99=412.54ms  cpu=1120%  speedup=5.68x  failures=0
+network sha256     workers=1   wall=2413.5   ms  thr=66.3     jobs/s  p50=1264.36ms  p99=2642.02ms  cpu=99%  speedup=1.00x  failures=0
+network sha256     workers=2   wall=1507.0   ms  thr=106.2    jobs/s  p50=756.09ms  p99=1518.37ms  cpu=202%  speedup=1.60x  failures=0
+network sha256     workers=4   wall=1162.2   ms  thr=137.7    jobs/s  p50=573.02ms  p99=1155.01ms  cpu=396%  speedup=2.08x  failures=0
+network sha256     workers=8   wall=873.2    ms  thr=183.2    jobs/s  p50=436.66ms  p99=868.62ms  cpu=772%  speedup=2.76x  failures=0
+network sha256     workers=16  wall=713.9    ms  thr=224.1    jobs/s  p50=384.39ms  p99=751.05ms  cpu=1051%  speedup=3.38x  failures=0
+network compress   workers=1   wall=7960.8   ms  thr=20.1     jobs/s  p50=4122.54ms  p99=9016.89ms  cpu=99%  speedup=1.00x  failures=0
+network compress   workers=2   wall=4603.2   ms  thr=34.8     jobs/s  p50=2411.16ms  p99=5033.94ms  cpu=196%  speedup=1.73x  failures=0
+network compress   workers=4   wall=3931.3   ms  thr=40.7     jobs/s  p50=1980.17ms  p99=4618.70ms  cpu=385%  speedup=2.02x  failures=0
+network compress   workers=8   wall=2765.5   ms  thr=57.9     jobs/s  p50=1444.28ms  p99=2819.12ms  cpu=699%  speedup=2.88x  failures=0
+network compress   workers=16  wall=2324.2   ms  thr=68.8     jobs/s  p50=1261.88ms  p99=2310.77ms  cpu=882%  speedup=3.43x  failures=0
+Wrote benchmark_results.csv and benchmark_report.md
